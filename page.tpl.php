@@ -229,7 +229,7 @@
         
            <?php // print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('class' => array('secondary-menu', 'links', 'clearfix')))); ?>
            <?php print render($page['footer_bottom_left']); ?>
-           <?php // print render($page['footer']); ?>
+           
             
         </div>
         
@@ -238,8 +238,13 @@
         	<?php print render($page['footer_bottom_right']); ?>
         
         </div><!-- EOF: #footer-bottom-right -->
-        </div><!-- EOF: #footer-bottom-right -->
+   
+   			<?php print render($page['footer']); ?>
+   
+   			</div><!-- EOF: #footer-bottom-left -->
+   
+   			</div><!-- EOF: #footer-bottom -->
        
-    </div><!-- EOF: #footer-bottom-inside -->
+    		</div><!-- EOF: #footer-bottom-inside -->
 
 </div><!-- EOF: #footer -->
